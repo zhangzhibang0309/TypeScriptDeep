@@ -1,0 +1,2 @@
+# TypeScriptDeep
+TypeScript studying
