@@ -10,3 +10,5 @@ console.log(message)
 // 这个并不推荐
 // 数组最好是唯一类型
 const arr: any[] = []
+arr[0] = 1
+arr[1] = "sadsd"
