@@ -22,5 +22,4 @@ else result = bar()
 // let message: string = result
 // let num: number = result
 
-
 export { }
