@@ -5,8 +5,10 @@
 // type First<T extends any[]> = T["length"] extends 0 ? never : T[0]
 
 // 第三种方式，通过union
-type t1 = [1,2,3]
-type t2 = 1 extends t1[number] ? true : false
-
+// type t1 = [1,2,3]
+// type t2 = 1 extends t1[number] ? true : false
 // T=[] => T[number]是never
-type First<T extends any[]> = T[0] extends T[number] ? T[0] : never
+// type First<T extends any[]> = T[0] extends T[number] ? T[0] : never
+
+// 第四种做法，inter推断，有点像js的解构
+type First<T extends any[]> = T extends [infer First,...infer rest] ? First : never
