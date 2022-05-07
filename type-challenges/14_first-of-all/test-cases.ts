@@ -7,6 +7,9 @@ type cases = [
   Expect<Equal<First<[undefined]>, undefined>>,
 ]
 
+// 传入空数组的话，取第一个元素是undefined
+// type t1 = First<[]>
+
 type errors = [
   // @ts-expect-error
   First<'notArray'>,
