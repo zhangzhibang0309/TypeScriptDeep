@@ -4,5 +4,4 @@ type MyParameters<T extends (...args: any[]) => any> = T extends (...args: infer
 const baz = (): void => { }
 type a = MyParameters<typeof baz>
 
-
 export { MyParameters }
