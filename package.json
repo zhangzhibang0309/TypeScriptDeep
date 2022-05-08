@@ -1,0 +1,20 @@
+{
+  "name": "typescriptdeep",
+  "version": "1.0.0",
+  "description": "TypeScript studying",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangzhibang0309/TypeScriptDeep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangzhibang0309/TypeScriptDeep/issues"
+  },
+  "homepage": "https://github.com/zhangzhibang0309/TypeScriptDeep#readme",
+  "devDependencies": {}
+}
