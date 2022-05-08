@@ -1,0 +1,1 @@
+type Concat<T extends array, U extends array> = [...T,...U]
