@@ -8,17 +8,17 @@ type TupleToObject<T extends readonly (number | string | symbol)[]> = {
 }
 
 // 使用js实现这么个功能
-function tupleObj(array) {
+// function tupleObj(array) {
   // 但是要判断array里的元素是否符合number | string | symbol这三种类型
-  for (let i = 0; i < array.length; i++) {
-    if (typeof array[i] !== "number" || array[i] !== "string" || array[i] !== "symbol") return new Error("error")
-  }
+//   for (let i = 0; i < array.length; i++) {
+//     if (typeof array[i] !== "number" || array[i] !== "string" || array[i] !== "symbol") return new Error("error")
+//   }
 
-  const obj = {}
+//   const obj = {}
 
-  array.forEach(item => {
-    obj[item] = item
-  });
+//   array.forEach(item => {
+//     obj[item] = item
+//   });
 
-  return obj
-}
+//   return obj
+// }
